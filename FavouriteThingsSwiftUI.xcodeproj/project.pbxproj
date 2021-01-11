@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1DC74F25ACD07A007D359A /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC74E25ACD07A007D359A /* SushiView.swift */; };
+		9C1DC75225ACD14C007D359A /* BasketballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75125ACD14C007D359A /* BasketballView.swift */; };
+		9C1DC75625ACD15A007D359A /* NetflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1DC75525ACD15A007D359A /* NetflixView.swift */; };
 		9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */; };
 		9C39ED2C25A8EA0100DB7C73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39ED2B25A8EA0100DB7C73 /* ContentView.swift */; };
 		9C39ED2E25A8EA0700DB7C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39ED2D25A8EA0700DB7C73 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C1DC74E25ACD07A007D359A /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
+		9C1DC75125ACD14C007D359A /* BasketballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballView.swift; sourceTree = "<group>"; };
+		9C1DC75525ACD15A007D359A /* NetflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixView.swift; sourceTree = "<group>"; };
 		9C39ED2625A8EA0100DB7C73 /* FavouriteThingsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThingsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C39ED2925A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsSwiftUIApp.swift; sourceTree = "<group>"; };
 		9C39ED2B25A8EA0100DB7C73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				9C39ED3025A8EA0700DB7C73 /* Preview Assets.xcassets */,
+				9C1DC74E25ACD07A007D359A /* SushiView.swift */,
+				9C1DC75125ACD14C007D359A /* BasketballView.swift */,
+				9C1DC75525ACD15A007D359A /* NetflixView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			files = (
 				9C39ED2C25A8EA0100DB7C73 /* ContentView.swift in Sources */,
 				9C39ED2A25A8EA0100DB7C73 /* FavouriteThingsSwiftUIApp.swift in Sources */,
+				9C1DC75625ACD15A007D359A /* NetflixView.swift in Sources */,
+				9C1DC74F25ACD07A007D359A /* SushiView.swift in Sources */,
+				9C1DC75225ACD14C007D359A /* BasketballView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
