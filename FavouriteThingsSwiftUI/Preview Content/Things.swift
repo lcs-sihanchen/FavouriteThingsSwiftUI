@@ -11,6 +11,7 @@ import Foundation
 // A class does not automatically generate an initializer, a structure does
 // We can do this manually by choosing:
 // Editor > Refactor > Generate Memberwise Initializer
+// use structure unless you have a reason to use a class
 class Things{
     
     var list: [Thing] = []
@@ -21,7 +22,7 @@ class Things{
         
         list.append(Thing(title: "Sushi", imageName: "Sushi", description: "I like sushi partly because it comes with seafood, and partly because it contains rice, which is an essential part for my meal. Sushi is a great combination of all the food I like."))
         
-        list.append(Thing(title: "Netflix", imageName: "Netflix", description: "I enjoyed spending my free time watching movies. It is a quick way to enrich my experiences in all aspects and to provide me with the materials needed to initiate conversations. It is also one of those few fun and relaxing way to learn English."))
+        list.append(Thing(title: "Netflix", imageName: "Netflix", description: "I enjoyed spending my free time watching movies on Netflix. It is a quick way to enrich my experiences in all aspects and to provide me with the materials needed to initiate conversations. It is also one of those few fun and relaxing way to learn English."))
         
         list.append(Thing(title: "Chess", imageName: "Chess", description: "As I get a deeper touch in chess every year, I gradually become a fan of it. Chess forces to think critically in order to defeat the opponent. During this process, I really enjoy manipulating pieces and strategizing my overall attack plan. They are just like problem solving, that its process is satisfying, and its result fulfilling."))
         
