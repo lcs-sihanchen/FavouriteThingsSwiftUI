@@ -12,7 +12,7 @@ import Foundation
 // We can do this manually by choosing:
 // Editor > Refactor > Generate Memberwise Initializer
 // use structure unless you have a reason to use a class
-class Things{
+struct Things{
     
     var list: [Thing] = []
     
