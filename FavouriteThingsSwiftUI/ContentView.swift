@@ -8,15 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    let favouriteThings = Things()
+    
     var body: some View {
-        List{
-            NavigationLink("Basketball", destination: BasketballView())
-            NavigationLink("Sushi", destination: SushiView())
-            NavigationLink("Netflix",destination: NetflixView())
-            
-            
+        // Iterate over favouriteThings.list and each time it loops the next favourite thing is placed in "things"
+        //
+        List(favouriteThings.list){
+            thing in
+            NavigationLink(thing.imageName, destination: ThingDetailView(thingToShow: thing))
         }.navigationTitle("Favourite Things")
-        
+//        List{
+//            NavigationLink("Basketball", destination: BasketballView())
+//            NavigationLink("Sushi", destination: SushiView())
+//            NavigationLink("Netflix",destination: NetflixView())
+//
+//
+//        }.navigationTitle("Favourite Things")
+//
         
         
     }
