@@ -15,4 +15,9 @@ struct Thing:Identifiable {
     let imageName: String
     let description: String
     
+    
+    // A sub-list of related favourite things
+    // An example of recursion
+    var relatedThings: [Thing] = [] // Empty list by default, and stops the recursion
+    // Not usually permitted unless it is an array
 }
